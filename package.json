@@ -1,0 +1,12 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/checkout.js"
+  },
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.2"
+  }
+}
